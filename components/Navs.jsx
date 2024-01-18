@@ -13,15 +13,15 @@ const Navs = () => {
       path: "/",
     },
     {
-      name: "about",
-      path: "/about",
+      name: "blog",
+      path: "/blog",
     },
     {
-      name: "projects",
+      name: "single post",
       path: "/projects",
     },
     {
-      name: "servives",
+      name: "pages",
       path: "/services",
     },
     {
@@ -41,7 +41,7 @@ const Navs = () => {
               <>
                 <li className='mb-1 '>
                   <Link
-                    className='block p-2 py-4  capitalize text-white  '
+                    className='block p-2 py-4 font-heading-font  capitalize text-white  '
                     href={currElm.path}
                   >
                     {currElm.name}
