@@ -6,7 +6,7 @@ import userImage from "@/public/assets/images/user-img01.png";
 const HeroBox = () => {
   return (
     <>
-      <div className='grid  grid-cols-4  absolute left-3 md:right-auto  right-3 -bottom-10 '>
+      <div className='grid  grid-cols-4  absolute left-28 md:right-auto  right-3 -bottom-10 '>
         <div className='md:col-span-2 xl:col-span-1 col-span-4 shadow-lg bg-primary-color px-5 py-5 '>
           <Button>Technology</Button>
           <h1 className='text-white font-heading-font mt-4 text-2xl font-bold'>
