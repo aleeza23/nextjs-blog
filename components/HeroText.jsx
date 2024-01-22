@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Button from "./Button";
-const HeroText = ({className, avatar}) => {
+const HeroText = ({className, avatar, headingStyle}) => {
   return (
     <>
       <Button>Technology</Button>
-      <h1 className='text-white font-heading-font mt-4 text-2xl font-bold'>
+      <h1
+        className={`text-white ${headingStyle} font-heading-font mt-4 lg:text-2xl font-bold`}
+      >
         The Impact of Technology on the Workplace: How Technology is Changing
       </h1>
       <div className='flex text-white items-center  gap-3'>

@@ -20,7 +20,8 @@ module.exports = {
         "primary-text-color ": "#4B6BFB"
       },
       fontFamily : {
-       "heading-font" : "Work Sans', sans-serif;"
+       "heading-font" : "Work Sans', sans-serif;",
+       "text-font" : "Source Serif 4', serif;"
       }
     },
   },

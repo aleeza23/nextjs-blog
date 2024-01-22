@@ -5,7 +5,7 @@ import HeroBox from "./HeroBox";
 const Hero = ({children}) => {
   return (
     <>
-      <div className='hero-main relative bg-cover rounded-none  '>
+      <div className='hero-main relative bg-cover rounded-none mb-20  '>
        {children}
       </div>
     </>

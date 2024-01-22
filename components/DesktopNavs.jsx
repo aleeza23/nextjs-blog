@@ -14,7 +14,7 @@ const DesktopNavs = () => {
 
   return (
     <>
-      <nav className='relative px-5  lg:px-10    py-7 flex justify-between items-center'>
+      <nav className='relative px-5   container mx-auto   py-7 flex justify-between items-center'>
         {/* logo */}
         <Link href='/' className=' ms-2 md:me-24   hidden sm:flex'>
           <Image src={logo} className='w-32 me-3 logo' alt=' Logo' />

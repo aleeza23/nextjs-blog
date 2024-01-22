@@ -15,6 +15,7 @@ const Home = () => {
       </Hero>
       <AdsSection />
       <BlogCard />
+      <AdsSection />
       <Footer />
     </>
   );

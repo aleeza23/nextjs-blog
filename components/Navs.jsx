@@ -18,7 +18,7 @@ const Navs = () => {
     },
     {
       name: "single post",
-      path: "/projects",
+      path: "/singlepost",
     },
     {
       name: "pages",
@@ -32,7 +32,7 @@ const Navs = () => {
   return (
     <>
       <Link href='/' className=' ms-2 md:me-24  sm:hidden'>
-        <Image src={logo} className='w-32 me-3 logo' alt=' Logo' />
+        <Image src={logo} className='w-14 me-3 logo' alt=' Logo' />
       </Link>
       <div>
         <ul className='sm:flex mt-10 sm:mt-0  '>

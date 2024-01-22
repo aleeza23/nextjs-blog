@@ -2,9 +2,9 @@ import React from 'react';
 
 export const Ads = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto px-2'>
       <div
-        className='my-20 text-center mx-auto lg:w-3/4	rounded-lg'
+        className=' text-center mx-auto lg:w-3/4	rounded-lg'
         style={{ backgroundColor: '#242535' }}
       >
         <p className='pt-5 text-lg font-sans' style={{ color: '#696A75' }}>

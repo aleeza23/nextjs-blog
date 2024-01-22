@@ -1,3 +1,4 @@
+import Ads from "@/components/AdsSection/Ads";
 import BlogCard from "@/components/BlogCard/BlogCard";
 import BreadCrumbs from "@/components/BreadCrumbs";
 import Button from "@/components/Button";
@@ -18,6 +19,7 @@ const Blog = () => {
         </div>
       </Hero>
       <BlogCard />
+      <Ads />
       <Footer />
     </>
   );

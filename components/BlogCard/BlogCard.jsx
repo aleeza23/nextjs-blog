@@ -6,10 +6,10 @@ const BlogCard = () => {
   return (
     <>
       <div className='container mx-auto'>
-        <div className='mt-5 text-white text-lg font-sans font-[700]'>
+        <div className='mt-5 px-2 text-white text-lg font-sans font-[700]'>
           <p>Latest Post</p>
         </div>
-        <div className='flex flex-wrap -mx-4'>
+        <div className='flex flex-wrap '>
           <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 px-4 my-4'>
             <Card
               imageSrc='./assets/images/CardImages/Rectangle 38.png'
@@ -67,13 +67,12 @@ const BlogCard = () => {
         </div>
         <div className='text-center'>
           <button
-            className='bg-transparent rounded-lg py-2 px-4'
+            className='bg-transparent rounded-lg py-2 px-4 mb-10'
             style={{color: "#696A75", border: "1px solid #272938"}}
           >
             View All Post
           </button>
         </div>
-        <AdsSection />
       </div>
     </>
   );
